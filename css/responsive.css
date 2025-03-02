@@ -1,0 +1,1019 @@
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container-padding{
+        padding: 32px 16px;
+    }
+
+    .gap-padding{
+        padding-top: 24px;
+    }
+
+    .logo-image{
+        width: 150px;
+    }
+
+    .banner-headline{
+        font-size: 36px;
+    }
+    
+    .paragraph-size{
+        font-size: 16px;
+    }
+
+    .section-headline{
+        font-size: 32px;
+      }
+
+
+      .diagram-btn{
+        width: 100%; 
+      }
+      
+      .sub-headline{
+        font-size: 24px;
+      }
+
+      .approach-image{
+        width: 515px;
+      }
+
+      .card-headline{
+        font-size: 20px;
+      }
+      
+      .card-content{
+        font-size: 14px;
+        line-height: 14px;
+      }
+
+      .logos-icon{
+        height: 30px;
+      }
+
+      .learn-more-btn{
+        width: 220px; 
+        height: 55px;
+      }
+
+      .nav-button{
+        width: 220px; 
+        height: 55px;
+    }
+    
+    .hero-content-section .nav-button{
+      width: 250px;
+      height: 60px;
+    }
+
+
+    .integration-arrow{
+      width: 30px;
+      height: 35px;
+    }
+
+    .fit-width{
+      width: 100%;
+    }
+
+    .approach-data-number{
+      font-size: 18px;
+    }
+
+
+    .learn-more-btn{
+      width: 220px ; 
+    }
+
+    .locked{
+      position: absolute;
+      top: -24px;
+      transform: translateX(-50%);
+      left: 50%;
+      z-index: 1;
+      width: fit-content;
+    }
+
+    .team-details{
+      width: 90% !important;
+    }
+
+    .team-headline{
+      font-size: 32px;
+    }
+
+    .advisors-image{
+      width: 40%;
+      object-fit: cover;
+    }
+
+    .contact-card{
+      padding: 36px 24px;
+    }
+
+    .contact-container{
+      padding: 46px 24px;
+    }
+
+    .shape-content ul{
+      padding-left: 0;
+    }
+
+    .full-people-diagram{
+      opacity: 1;
+    }
+
+    .people-diagram-container{
+      opacity: 0;
+    }
+
+
+    .imapact-svg-screen{
+      width: 10px;
+      left: 0%;
+    }
+
+
+}
+
+
+@media (min-width: 330px) and (max-width: 575.98px) {
+    .approach-image{
+        width: 325px;
+      }
+
+
+      .diagram-circle{
+        width: 28%;
+        height: 28%;
+        text-shadow:  1px 1px 1px #0000002b;
+        font-size: 7px !important;
+        padding: 5px;
+      }
+
+
+      .client-box{
+        width: 20%;
+        border-radius: 8px;
+      }
+
+      .custom-row-cols-xl-7>* {
+        flex: 0 0 auto;
+        width: 20%;
+      }
+
+
+      .left-bottom-frame-work-icon{
+        width: 50%;
+      }
+
+
+      .right-bottom-frame-work-icons{
+        width: 100%;
+      }
+
+      .un-logos{
+        width: 90px;
+        height: 90px;
+      }
+
+      .logo-list{
+        height: 22px;
+      }
+
+      .advisors-image{
+        width: 60%;
+        object-fit: cover;
+      }
+
+      .advisors-card{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .shape-content {
+        font-size: 8px;
+        line-height: 9px;
+    }
+  
+    .shape-icon{
+      transform: scale(0.5);
+    }
+  
+    .ergonomic-content {
+      top: 58%;
+      left: 9%;
+  }
+  
+  .biophilia-content {
+    bottom: 10%;
+    left: 6%;
+  }
+  
+  .air-quality-content {
+    top: 15%;
+    left: -19%;
+  }
+
+
+  .animating-text{
+    font-size: 36px;
+    width: 295px;
+  }
+
+}
+
+
+@media (max-width: 329.98px){
+
+  .approach-image{
+    width: 100% !important;
+  }
+
+  .diagram-circle{
+    width: 27%;
+    height: 27%;
+    text-shadow:  1px 1px 1px #0000002b;
+    font-size: 8px !important;
+    padding: 5px;
+    word-break: break-all;
+  }
+
+  .client-box{
+    width: 60%;
+    border-radius: 16px;
+  }
+
+  .custom-row-cols-xl-7>* {
+    flex: 0 0 auto;
+    width: 33.2%;
+  }
+
+  .left-bottom-frame-work-icon{
+    width: 100%;
+  }
+
+
+  .right-bottom-frame-work-icons{
+    width: 100%;
+  }
+
+  .un-logos{
+    width: 64px;
+    height: 64px;
+  }
+
+  .logo-list{
+    height: 22px;
+  }
+
+  .advisors-image{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .advisors-card{
+    flex-direction: column;
+  }
+
+  .animating-text{
+    font-size: 24px;
+    width: fit-content;
+  }
+
+}
+
+
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container-padding{
+        padding: 46px 32px;
+    }
+
+    .logo-image{
+        width: 150px;
+    }
+
+    .banner-headline{
+        font-size: 52px;
+    }
+    
+    .paragraph-size{
+        font-size: 18px;
+    }
+
+    .section-headline{
+        font-size: 36px;
+      }
+
+
+      .sub-headline{
+        font-size: 24px;
+      }
+
+      .approach-image{
+        width: 515px;
+      }
+      .approach-number{
+        font-size: 32px;
+      }
+      
+      .diagram-btn{
+        height: 120px ;     
+        width: 100%; 
+      }
+
+      .diagram-text{
+        font-size: 12px;
+      }
+
+      .logos-icon{
+        width: 180px;
+      }
+
+      .globe-circle{
+        width: 150px;
+        height: 150px;
+      }
+
+
+    .client-box{
+      width: 20%;
+    }
+
+    .learn-more-btn{
+      width: 220px ; 
+    }
+
+    .custom-row-cols-xl-7>* {
+      flex: 0 0 auto;
+      width: 20%;
+    }
+
+    .un-logos{
+      width: 100px;
+      height: 100px;
+    }
+
+    .logo-list{
+      height: 16px;
+    }
+
+    .team-details{
+      width: 75% !important;
+    }
+
+    .team-headline{
+      font-size: 46px;
+    }
+
+    .advisors-image{
+      width: 40%;
+    }
+
+    .shape-content {
+      font-size: 8px;
+      line-height: 9px;
+  }
+
+  .shape-icon{
+    transform: scale(0.8);
+  }
+
+  .ergonomic-content {
+    top: 58%;
+    left: 9%;
+}
+
+.biophilia-content {
+  bottom: 10%;
+  left: 6%;
+}
+
+.air-quality-content {
+  top: 15%;
+  left: -19%;
+}
+
+.health-literacy-icon {
+  left: 64%;
+  top: 46%;
+}
+
+.mindful-practice-icon {
+  left: 54%;
+  top: 56%;
+}
+
+.nourishment-icon {
+  left: 45%;
+  top: 62%;
+}
+
+.physical-activity-icon {
+  left: 50%;
+  top: 15%;
+}
+
+.sleep-quality-icon {
+  left: 58%;
+  top: 30%;
+}
+
+.animating-text{
+  font-size: 56px;
+  width: 450px;
+}
+
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    .menu-elemets{
+        position: absolute;
+        top: 78.98px;
+        background-color: #179498f1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        height: calc(100vh - 83.98px);
+        padding:36px 16px;
+        right: 0;
+        left: 0;
+        z-index: 1000 !important;
+    }
+
+    .menu-elemets ul,.menu-elemets a,.menu-elemets li, .header-navlinks{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-button{
+        width: 220px !important; 
+    }
+
+    .hero-content-section>div:last-child{
+      margin-top: 24px;
+    }
+
+    .hero-animation{
+      min-height: calc(50vh - 96px); 
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .framework-icon {
+      width: 35px;
+      height: 35px;
+    }
+
+    .framework-icon-box {
+      font-size: 12px;
+      line-height: 12px;
+    }
+
+    .framework-icon-top {
+      width: 45px;
+    }
+
+    .scroll-margin {
+      scroll-margin-top: 80px;
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: ease 1s;
+    filter: blur(5px);
+    transform: translateY(-10%);
+  }
+
+  .show-scroll {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+
+  .hidden_2 {
+    opacity: 0;
+    transition: ease 1s;
+    filter: blur(6px);
+    transform: translateY(10%);
+  }
+  
+  .show-scroll_2 {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+
+  .contact-section{
+    height: 900px;
+  }
+
+  .contact-container{
+    transform: translateY(-10%);
+  }
+
+  .contact-card{
+    width: 100%;
+  }
+
+  .contact-form-container{
+    width: 100%;
+  }
+
+  .story-headline-box{
+    transform: translateY(0px);
+    height: 300px;
+    overflow-y: hidden;
+    padding-top: 50px;
+  }
+
+  .sticky-nav {
+    background:linear-gradient(to right, #65B553 , #3AA675) ;
+    top: 0;
+    padding-top: 100px;
+    padding-bottom: 12px;
+    box-shadow: 0px 2px 1px #00000024;
+  }
+
+  .mission-section-offset {
+    scroll-margin-top: 280px;
+}
+
+
+.story-padding {
+  padding: 46px 0 !important;
+}
+
+/* IMPACT PEOPLE */
+
+.impact-people-container{
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  height: max-content;
+}
+
+.impact-headline{
+  position: static
+}
+
+.impact-people-1 {
+  position: static
+}
+
+.impact-people-2 {
+  position: static
+}
+
+.impact-people-3 {
+  position: static;
+}
+.impact-people-4 {
+  position: static;
+}
+
+
+
+/* IMPACT ON PLANET */
+
+
+.impact-planet-container{
+  justify-content: start;
+  flex-direction: column;
+  align-items: end;
+  height: fit-content;
+  min-height: max-content;
+}
+
+.planet-headline{
+  position: static;
+  transform: translateX(0%);
+}
+
+.impact-planet-1{
+  position: static;
+}
+
+.impact-planet-2{
+  position: static;
+}
+
+.impact-planet-3{
+  position: static;
+}
+
+/* IMPACT ON PROFITS */
+
+
+.impact-profit-container{
+  height: max-content;
+  min-height: fit-content;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+.profit-content-1{
+  position: static;
+}
+
+.profit-content-2{
+  position: static;
+}
+
+.profit-content-3{
+  position: static;
+}
+
+.profit-content-4{
+  position: static;
+}
+
+
+/* FUTURE OF SMART */
+
+.future-smart-container{
+  justify-content: start;
+  flex-direction: column;
+  align-items: end;
+  height: fit-content;
+  min-height: max-content;
+}
+
+.future-headline{
+  position: static;
+}
+
+.future-content-1{
+  position: static;
+}
+.future-content-2{
+  position: static;
+}
+.future-content-3{
+  position: static;
+}
+.future-content-4{
+  position: static;
+}
+.future-content-5{
+  position: static;
+}
+.future-content-6{
+  position: static;
+}
+.future-content-7{
+  position: static;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container-padding{
+        padding: 54px 64px;
+    }
+
+    .sub-headline{
+        font-size: 26px;
+      }
+
+      .paragraph-size{
+        font-size: 18px;
+    }
+
+    .learn-more-btn{
+      width: 220px ; 
+    }
+
+    .custom-row-cols-xl-7>* {
+      flex: 0 0 auto;
+      width: 14.25%;
+    }
+
+    .un-logos{
+      width: 120px;
+      height: 120px;
+    }
+
+    .logo-list{
+      height: 14px;
+    }
+
+    .team-details{
+      width: 60% !important;
+    }
+
+    .team-headline{
+      font-size: 56px;
+    }
+
+    .advisors-image{
+      width: 25%;
+    }
+
+    .shape-content {
+      font-size: 10px;
+      line-height: 11px;
+  }
+
+  .shape-icon{
+    transform: scale(1);
+  }
+
+  .air-quality-content {
+    top: 15%;
+    left: -17%;
+}
+
+  .biophilia-content {
+    bottom: 10%;
+    left: 7%;
+}
+
+.ergonomic-content {
+  top: 58%;
+  left: 10%;
+}
+
+.animating-text{
+  font-size: 78px;
+  width: 680px;
+}
+
+
+
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-padding{
+        padding: 64px 74px;
+    }
+
+    .navigation-link{
+        font-size: 14px;
+    }
+
+    .learn-more-btn{
+      font-size: 14px;
+    }
+    .nav-button{
+        font-size: 14px;
+    }
+
+    .diagram-container{
+        width:55%;
+      }
+
+
+      .approach-image{
+        width: 515px;
+      }
+      .approach-number{
+        font-size: 32px;
+      }
+
+      .globe-circle{
+        width: 150px;
+        height: 150px;
+      }
+
+      .framework-icon {
+        width: 40px;
+      }
+
+      .custom-row-cols-xl-7>* {
+        flex: 0 0 auto;
+        width: 14.25%;
+      }
+
+
+      .framework-icon-top {
+        width: 45px;
+    }
+
+    .diagram-circle{
+      width: 25%;
+      height: 25%;
+      font-size: 14px;
+    }
+
+    .logo-list{
+      height: 14px;
+    }
+
+
+    .team-details{
+      width: 40% !important;
+    }
+
+    .team-headline{
+      font-size: 64px;
+    }
+    
+    .advisors-image{
+      width: 25%;
+    }
+
+    .contact-card{
+      width: 50%;
+    }
+
+    .contact-form-container{
+      width: 45%;
+    }
+
+    .shape-icon{
+      transform: scale(1);
+    }
+    
+    .shape-content{
+      font-size: 12px;
+      line-height: 13px;
+    }
+
+    .air-quality-content {
+      top: 14%;
+      left: -14%;
+  }
+
+  .air-quality-content ul:nth-child(2){
+    font-size: 11.5px;
+  }
+  
+
+    .mindful-practice-content {
+      top: 23%;
+      left: 10%;
+  }
+
+  .ergonomic-content {
+    top: 58%;
+    left: 12%;
+}
+
+.future-headline{
+  right: 0%;
+}
+
+
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .container-padding{
+        padding: 84px 128px;
+    }
+
+    .diagram-container{
+        width:90%;
+      }
+
+
+      .approach-image{
+        width: 515px;
+      }
+
+      .right-bottom-frame-work-icons{
+        width: 75%;
+      }
+
+      .diagram-text{
+        font-size: 14px;
+      }
+
+      .logo-list{
+        height: 14px;
+      }
+
+      .transform-scale{
+        font-size: 14px;
+      }
+
+      .advisors-image{
+        width: 50%;
+      }
+
+      .contact-card{
+        width: 45%;
+      }
+
+      .contact-form-container{
+        width: 50%;
+      }
+
+      .shape-icon{
+        transform: scale(1);
+      }
+      
+      .shape-content{
+        font-size: 10px;
+        line-height: 11px;
+      }
+
+      .air-quality-content{
+        top: 15%;
+        left: -15%;
+      }
+
+      .ergonomic-content {
+        top: 58%;
+        left: 17%;
+    }
+
+    .future-headline{
+      right: 0%;
+    }
+
+}
+
+@media (min-width: 1200px)  {
+  .custom-row-cols-xl-7>* {
+    flex: 0 0 auto;
+    width: 14.25%;
+  }
+
+  .framework-icon-top {
+    width: 45px;
+  }
+
+  .advisors-image{
+    width: 50%;
+  }
+
+
+  .only-1200{
+    display: block !important;
+  }
+
+  .not-1200{
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1699.98px) {
+
+
+  .diagram-container{
+      width:90%;
+    }
+
+    .logo-list{
+      height: 20px;
+    }
+
+    .contact-card{
+      width: 41.66666667%;
+    }
+
+    .shape-icon{
+      transform: scale(1);
+    }
+    
+    .shape-content{
+      font-size: 11px;
+      line-height: 12px;
+    }
+
+    .ergonomic-content{
+      top: 58%;
+      left: 11%;
+    }
+    
+    .air-quality-content{
+      top: 15%;
+      left: -10%;
+    }
+
+    .future-headline{
+      right: 0%;
+    }
+
+}
+
+
+
+@media (min-width: 1400px){
+
+
+  .story-container-padding{
+      padding: 96px 138px;
+  }
+
+  .only-1400{
+    display: block !important;
+  }
+
+}

@@ -1,0 +1,97 @@
+<div class="tree-container">
+  <div id="tooltip" class="tooltip" style="opacity: 1;left: 32.625px;top: 98.21px;">Sustainability</div>
+  <svg width="100%" height="100%" viewBox="0 0 800 600">
+    <!-- Grid Lines -->
+    <g class="grid">
+      <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+        <path class="grid-line" d="M 50 0 L 0 0 0 50" fill="none"></path>
+      </pattern>
+      <rect width="100%" height="100%" fill="url(#grid)"></rect>
+    </g>
+    
+    <!-- Tree Structure -->
+    <g class="tree">
+      <!-- Starting branches -->
+      <path class="tree-line" d="M 50,150 L 200,250" style="stroke-dasharray: 180.278; stroke-dashoffset: 180.278; animation: 1.5s ease-in-out 0s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 50,350 L 200,250" style="stroke-dasharray: 180.278; stroke-dashoffset: 180.278; animation: 1.5s ease-in-out 0.2s 1 normal forwards running drawLine;"></path>
+      
+      <!-- Main path after merge -->
+      <path class="tree-line" d="M 200,250 L 300,200 L 400,300 L 500,200" style="stroke-dasharray: 394.646; stroke-dashoffset: 394.646; animation: 1.5s ease-in-out 0.4s 1 normal forwards running drawLine;"></path>
+      
+      <!-- Final branches -->
+      <path class="tree-line" d="M 500,200 L 650,100" style="stroke-dasharray: 180.278; stroke-dashoffset: 180.278; animation: 1.5s ease-in-out 0.6s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 500,200 L 650,175" style="stroke-dasharray: 152.069; stroke-dashoffset: 152.069; animation: 1.5s ease-in-out 0.8s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 500,200 L 650,250" style="stroke-dasharray: 158.114; stroke-dashoffset: 158.114; animation: 1.5s ease-in-out 1s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 650,100 L 750,50" style="stroke-dasharray: 111.803; stroke-dashoffset: 111.803; animation: 1.5s ease-in-out 1.2s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 650,100 L 750,100" style="stroke-dasharray: 100; stroke-dashoffset: 100; animation: 1.5s ease-in-out 1.4s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 650,175 L 750,150" style="stroke-dasharray: 103.078; stroke-dashoffset: 103.078; animation: 1.5s ease-in-out 1.6s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 650,175 L 750,200" style="stroke-dasharray: 103.078; stroke-dashoffset: 103.078; animation: 1.5s ease-in-out 1.8s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 650,250 L 750,250" style="stroke-dasharray: 100; stroke-dashoffset: 100; animation: 1.5s ease-in-out 2s 1 normal forwards running drawLine;"></path>
+      <path class="tree-line" d="M 650,250 L 750,300" style="stroke-dasharray: 111.803; stroke-dashoffset: 111.803; animation: 1.5s ease-in-out 2.2s 1 normal forwards running drawLine;"></path>
+    </g>
+
+    <!-- Points with pulse rings -->
+    <g class="points">
+      <g class="point-group">
+        <circle class="pulse-ring" cx="50" cy="150" style="animation: 2s ease 0s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="50" cy="150" r="4" data-tooltip="Sustainability" style="animation: 0.5s ease 0.5s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="50" cy="350" style="animation: 2s ease 0.1s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="50" cy="350" r="4" data-tooltip="Health" style="animation: 0.5s ease 0.7s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="200" cy="250" style="animation: 2s ease 0.2s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="200" cy="250" r="4" data-tooltip="Well being" style="animation: 0.5s ease 0.9s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="300" cy="200" style="animation: 2s ease 0.3s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="300" cy="200" r="4" data-tooltip="Energy efficiency" style="animation: 0.5s ease 1.1s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="400" cy="300" style="animation: 2s ease 0.4s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="400" cy="300" r="4" data-tooltip="Reducing carbon emission" style="animation: 0.5s ease 1.3s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="500" cy="200" style="animation: 2s ease 0.5s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="500" cy="200" r="4" data-tooltip="Clear air" style="animation: 0.5s ease 1.5s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="650" cy="100" style="animation: 2s ease 0.6s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="650" cy="100" r="4" data-tooltip="Clear water" style="animation: 0.5s ease 1.7s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="650" cy="175" style="animation: 2s ease 0.7s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="650" cy="175" r="4" data-tooltip="Circadian entrainment" style="animation: 0.5s ease 1.9s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="650" cy="250" style="animation: 2s ease 0.8s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="650" cy="250" r="4" data-tooltip="Energizing" style="animation: 0.5s ease 2.1s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="750" cy="50" style="animation: 2s ease 0.9s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="750" cy="50" r="4" data-tooltip="Stress relief" style="animation: 0.5s ease 2.3s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="750" cy="100" style="animation: 2s ease 1s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="750" cy="100" r="4" data-tooltip="Saving water" style="animation: 0.5s ease 2.5s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="750" cy="150" style="animation: 2s ease 1.1s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="750" cy="150" r="4" data-tooltip="ESG reporting" style="animation: 0.5s ease 2.7s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="750" cy="200" style="animation: 2s ease 1.2s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="750" cy="200" r="4" data-tooltip="Standard compliance" style="animation: 0.5s ease 2.9s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="750" cy="250" style="animation: 2s ease 1.3s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="750" cy="250" r="4" data-tooltip="LEED" style="animation: 0.5s ease 3.1s 1 normal forwards running showPoint;"></circle>
+      </g>
+      <g class="point-group">
+        <circle class="pulse-ring" cx="750" cy="300" style="animation: 2s ease 1.4s infinite normal none running pulse;"></circle>
+        <circle class="tree-point" cx="750" cy="300" r="4" data-tooltip="WELL" style="animation: 0.5s ease 3.3s 1 normal forwards running showPoint;"></circle>
+      </g>
+    </g>
+  </svg>
+</div>
